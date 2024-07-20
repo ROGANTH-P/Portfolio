@@ -1,5 +1,5 @@
 import React from 'react';
-import img1 from '../assets/image1.jpg';
+import img1 from '../assets/images/pic.jpg';
 import '../css/Home.css';
 import Typewriter from 'typewriter-effect';
 import { FiFacebook, FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";

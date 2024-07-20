@@ -1,5 +1,6 @@
 import React from 'react'
-import img1 from '../assets/image.jpg';
+import pic from '../assets/images/pic.jpg';
+import Rogan from '../assets/images/Rogan.jpg'
 import '../css/About.css'
 import AOS from 'aos'
 import { useEffect } from 'react';
@@ -22,7 +23,7 @@ const About = () => {
         <div className='row'>
           <h2 className='text-center'>About <span style={{ color: "#f64c08" }}>me</span></h2>
           <div className='col-12 col-md-6 col-lg-6 aboutImagePart1 mt-4 d-block' data-aos='flip-right'>
-            <img src={img1} alt='sabari' style={{ width: "300px", height: "300px", objectFit: "contain", borderRadius: "0%"}} />
+            <img src={Rogan} alt='rogan' style={{ width: "300px", height: "300px", objectFit: "contain", borderRadius: "0%"}} />
             <a href="https://drive.google.com/file/d/1MkuLJzhCPOFSdTKh80JFaMvsXsHheCGS/view" style={{textDecoration:'none'}}><button className='downloadcv'>Resume</button></a>
             </div>
           <div className='col-12 col-md-6 col-lg-6 aboutTextPart1' data-aos='fade-left'>
