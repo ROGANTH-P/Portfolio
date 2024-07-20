@@ -1,0 +1,6 @@
+.arrow{
+    cursor: pointer;
+}
+.arrow:hover{
+    transform: scaleY(1.5);
+}

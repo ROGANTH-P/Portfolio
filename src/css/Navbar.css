@@ -1,0 +1,32 @@
+
+.navbar{
+    background-color: black !important;
+}
+.navbar .end{
+    
+    color: rgb(237, 112, 39);
+}
+.navbar .start{
+  color: white;
+}
+.navbar li{
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bolder;
+   font-stretch: expanded;
+}
+.navbar li a{
+     color: blue;
+}
+.navbar li a:hover{
+  border-bottom: 2px solid #f00;
+  color:white;
+  transform: scaleY(1.2);
+  transition:step-start;
+  font-weight: 800;
+}
+.navbar .end:hover{
+  color: white;
+}
+.navbar .start:hover{
+  color:rgb(237, 112, 39) ;
+}

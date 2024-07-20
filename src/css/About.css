@@ -1,0 +1,52 @@
+.about
+{
+    background-color: white;
+    margin-top: 20px;
+    height: max-content;
+}
+.aboutTextPart1
+{
+     display: flex;
+     align-items: center;
+
+}
+.download1
+{
+    color: white;
+    background-color:  #f64c08;
+
+}
+.download1:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid  #f64c08;
+}
+
+  
+  #exTab1 .tab-content {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+  }
+  .aboutImagePart1 img
+  {
+    margin-left: 100px;
+  }
+  .aboutImagePart1 a button
+  {
+    margin-left: 190px;
+  }
+  @media (max-width: 430px) {
+    .aboutImagePart1 img {
+        margin-left: 50px; 
+    }
+    .aboutImagePart1 a button{
+        margin-left: 130px; 
+    }
+}
+.nav-tabs .nav-link:hover {
+  background-color: #f64c08; 
+  opacity: 7;
+  color: white; 
+}
+

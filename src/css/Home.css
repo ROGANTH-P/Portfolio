@@ -1,0 +1,152 @@
+   
+.home1{
+    
+    background-color:black;
+}
+
+body{
+  min-width: 100%;
+  overflow-x: hidden;
+}
+.image-container {
+    
+    width: 300px; 
+    height: 300px;
+    border-radius:3%;
+    border: 2px  #f64c08 inset;
+  }
+  
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+  
+  .image-container.fade-in-zoom img {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .image-container.fade-in-zoom:hover img {
+    opacity: 1;
+    transform: scale(1.1);
+    color: aqua;
+  } 
+  .end
+  {
+    color: #f64c08;
+
+  }
+  .loading
+  {
+    color: #f64c08;
+     position: relative;
+     font-size: 28px;
+
+  }
+  .loading span{
+     display:inline-block;
+     animation-name: loading;
+     animation-duration: 3s;
+     animation-timing-function:ease-in-out;
+     animation-iteration-count: infinite;
+  }
+  .loading span:nth-child(1){
+    animation-delay: 0.1s;
+  }
+  .loading span:nth-child(2){
+    animation-delay: 0.3s;
+  }
+  .loading span:nth-child(3){
+    animation-delay: 0.5s;
+  }
+  .loading span:nth-child(4){
+    animation-delay: 0.7s;
+  }
+  .loading span:nth-child(5){
+    animation-delay: 0.9s;
+  }
+  .loading span:nth-child(6){
+    animation-delay: 1.1s;
+  }
+  .loading span:nth-child(7){
+    animation-delay: 1.3s;
+  }
+  .loading span:nth-child(8){
+    animation-delay: 1.5s;
+  }
+  @keyframes loading {
+    0%, 80%
+    {
+      transform: rotateY(360deg);
+    }
+
+  }
+  .downloadcv 
+  {
+    color: white;
+    background-color: #f64c08;
+    font-size: 14px;
+     padding: 10px 30px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-weight: 100;
+     cursor: pointer;
+     margin-right: 20px;
+     margin-top: 20px;
+  }
+  .mywork
+  {
+    color: white;
+    border: 3px solid white !important;
+    background-color: transparent;
+    font-size: 14px;
+    padding:9px 45px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .downloadcv:hover{
+    color: #f64c08;
+    background-color: white;
+    font-weight: 600;
+  }
+  .mywork:hover{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+  }
+ /* Example usage of the @media query */
+@media (max-width: 400px) {
+  /* Adjusting margin-top for a specific element */
+  .image-container {
+    margin-bottom: 80px;
+  }
+  .type
+  {
+    font-size: 1.5rem;;
+  }
+  .welcome
+  {
+    margin-top: 20px;
+  }
+
+}
+@media (min-width: 800px) {
+  .hometextpart {
+      margin-top: 200px;
+  }
+  .image-container{
+    margin-top: 200px;
+  }
+}
+@media (max-width: 500px) {
+  
+  .home1{
+     max-width: 500px;
+     overflow-x:hidden;
+  }
+}

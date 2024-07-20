@@ -1,0 +1,65 @@
+.projects
+{
+    background-color: white;
+    color: black;
+    object-fit: contain;
+}
+hr{
+    height: 2px;
+    background-image: -webkit-linear-gradient(left,black,white,white,black);
+}
+.myProjectText
+{
+    text-align: center;
+    position:static;
+}
+.myProjectText span{
+    color:  #f64c08;
+}
+.card
+{
+    transition: 1s;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: ease-in-out;
+    transition-duration: 1s;
+}
+.aboutbtn{
+    color: black;
+    background-color: #f64c08;
+}
+.aboutbtn:hover{
+    color: black;
+    background-color: transparent;
+    border: 1px solid #f64c08;
+}
+.img-top
+{
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
+}
+@media (max-width: 500px) {
+  
+    .img-top
+    {
+        height: 200px;
+        width: 250px;
+        object-fit: cover;
+    }
+  }
+.projects{
+    height: 100vh;
+    overflow-y: auto;
+}
+.projects::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.projects {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
