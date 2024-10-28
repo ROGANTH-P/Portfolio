@@ -51,7 +51,7 @@ hr{
     }
   }
 .projects{
-    height: 100vh;
+    height: 50vh;
     overflow-y: auto;
 }
 .projects::-webkit-scrollbar {

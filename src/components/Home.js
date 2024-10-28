@@ -1,9 +1,9 @@
 import React from 'react';
-import img1 from '../assets/images/pic.jpg';
+import img1 from '../images/pic.jpg';
 import '../css/Home.css';
 import Typewriter from 'typewriter-effect';
 import { FiFacebook, FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";
-import resume from '../assets/Resume.pdf';
+
 const Home = () => {
   return (
     <div className='home1 max-vh-100 mt-1'>

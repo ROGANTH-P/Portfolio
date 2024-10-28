@@ -1,6 +1,6 @@
 import React from 'react'
-import pic from '../assets/images/pic.jpg';
-import Rogan from '../assets/images/Rogan.jpg'
+
+import Rogan from '../images/Rogan.jpg'
 import '../css/About.css'
 import AOS from 'aos'
 import { useEffect } from 'react';
@@ -8,10 +8,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/js/dist/dropdown'
 import 'aos/dist/aos.css'
 import { FiBook,FiShield,FiZap } from "react-icons/fi";
-import resume from '../assets/Resume.pdf';
-import cognisance from '../assets/cognisance.pdf';
-import renaissance from '../assets/renaissance.pdf';
-import codeup from '../assets/codeup.pdf';
+
+
 
 const About = () => {
   useEffect(() => {

@@ -33,7 +33,7 @@ const Projects = () => {
                 <div className='card-body'>
                   <h5 className='card-title'>{project.name}</h5>
                   <p>{project.description}</p>
-                  <a href={project.liveDemo} className='btn aboutbtn' target='no_blank'>Live Demo</a>
+              
                   <a href={project.code} className='btn aboutbtn ms-1 ms-sm-5 mt-0 mt-sm-0' target='no_blank'>Code</a>
                 </div>
               </div>
